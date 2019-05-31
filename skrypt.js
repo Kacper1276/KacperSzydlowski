@@ -1,0 +1,12 @@
+jQuery(function($){
+    $.scrollTo(0);
+    $('.scrollup').click(function(){
+        $.scrollTo($('#AboutMe'),1000);
+    });
+})
+jQuery(function($){
+    $.scrollTo(0);
+    $('.Skills').click(function(){
+        $.scrollTo($('#skills'),1000);
+    });
+})

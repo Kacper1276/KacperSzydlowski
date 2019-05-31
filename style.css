@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana;
+}
+
+#header{
+    background-image: url("home-office-336373_1280.jpg");
+    background-size: cover;
+    height: 100vh;
+    filter: brightness(69%);
+    
+}
+/*menu*/
+nav{
+    height: 57px;
+    background-color: white;
+    width: 390px;
+    display: flex;
+    margin: 0 auto;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav >li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav >li a{
+    text-decoration: none;
+    color: blue;
+    display: block;
+    padding: 8.5px 15px;
+    line-height: 40px;
+}
+nav >li a:hover{
+    color:#217dbb;
+    background: #eee;
+    border-radius: 4px;
+    text-decoration: none;
+}
+/*koniec menu*/
+
+h1{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-size: 50px;
+}
+#header img{
+    position: absolute;
+    bottom:20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#AboutMe{
+background-color: #07374a;
+height: auto;
+display: flex;
+
+}
+#AboutMe >p.me{
+    color: black;
+    font-size: 2em;
+    position: relative;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 200px;
+    border-right: 1px solid black;
+    display: flex;
+    width: 400px;
+}
+.oMnie{
+    width: 520px;
+    margin-top: 80px;
+    margin-left: 5%;
+    color: white;
+
+}
+.photo{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        position: absolute;
+        left: 32%;
+        top: 110%;
+}
+#skills{
+    height: 30vh;
+    background-color: #2C3A47;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    font-size: 5rem;
+}
+.languages{
+    display: flex;
+}
+.languages >div{
+    flex-basis: 35%;
+    height: 19.5vh;
+}
+.languages>div:hover{
+    background-color: blue;
+}
