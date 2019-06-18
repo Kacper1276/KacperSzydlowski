@@ -10,3 +10,9 @@ jQuery(function($){
         $.scrollTo($('#skills'),1000);
     });
 })
+jQuery(function($){
+    $.scrollTo(0);
+    $('.projects').click(function(){
+        $.scrollTo($('#projects'),1000);
+    });
+})
