@@ -16,3 +16,9 @@ jQuery(function($){
         $.scrollTo($('#projects'),1000);
     });
 })
+jQuery(function($){
+    $.scrollTo(0);
+    $('.contact').click(function(){
+        $.scrollTo($('#Contact'),1000);
+    });
+})
