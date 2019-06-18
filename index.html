@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta name="description" content="ie=edge">
     <title>Kacper Szydlowski</title>
     <link rel="stylesheet" href="style.css">
@@ -16,13 +16,18 @@
 <body>
         
     <section id="header">
+       <div class="burger">
+           <span></span>
+           <span></span>
+           <span></span>
+       </div>
         <nav>
             <li class="scrollup"><a href="#">O mnie</a></li>
             <li class="Skills"><a href="#">Umiejętności</a></li>
-            <li><a href="index.html">Projekty</a></li>
+            <li class="projects"><a href="#">Projekty</a></li>
             <li><a href="index.html">Kontakt</a></li>
         </nav>
-        <h1>Kacper Szydłowski <p> Junior Front-End Developer</p></h1>
+        <p class="mek">Kacper Szydłowski <br><small> Junior Front-End Developer</small></p>
         <img src="https://img.icons8.com/ultraviolet/40/000000/down-squared.png" class="scrollup">
     </section>
     
@@ -31,8 +36,7 @@
            <p class="me">O mnie
                 
            </p>
-           
-           <h4 class="oMnie">Nazywam się Kacper. Mam 19 lat. Niedawno ukończyłem Technikum Informatyczne.Odkąd zacząłem drugą klasę Technikum, bardzo poczułem chęć nauki CSS'a oraz JavaScriptu, poniewważ bardzo mnie to zainteresowało.W szkole uczyliśmy się takich rzeczy jak:<br>
+           <h4 class="oMnie">Nazywam się Kacper. Mam 19 lat. Niedawno ukończyłem Technikum Informatyczne.Odkąd zacząłem drugą klasę Technikum, bardzo poczułem chęć nauki CSS'a oraz JavaScriptu, ponieważ bardzo mnie to zainteresowało.W szkole uczyliśmy się takich rzeczy jak:<br>
                - HTML5<br>
                - CSS<br>
                - JavaScript<br>
@@ -52,11 +56,31 @@
             <div id="css"><img src="css.svg" style="height: 100px;width:100px"></div>
             <div id="js"><img src="js.svg" style="height: 100px;width:100px"></div>
             </div>
+
     </section>
+    
+    <section id="projects">
+            <h3>Moje Projekty</h3>
+            <div id="project1">
+                <a href="to-do.rar">To-do</a>
+            </div>
+        <div id="project2"><a href="galeria.rar">Galeria</a></div>
+        <div id="project3"><a href="Aplikacja.rar">Aplikacja</a></div>
+        <div id="project4"><a href="zegar.rar">Zegar</a></div>
+            
+    </section>
+
+    <footer>
+        DESIGN BY KACPER.<br>WSZYSTKIE PRAWA ZASTRZEŻONE || 2019
+    </footer>
+
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="jquery.scrollTo.min.js"></script>
     <script src="skrypt.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script>
+        
+    </script>
 </body>
 </html>
